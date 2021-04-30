@@ -1,0 +1,87 @@
+Ejercicio 
+Elaborar un algoritmo para preparar 	un sándwich, definir los elementos de entrada y salida.
+
+Elementos de entrada:
+1.	Pan
+2.	Jamon
+3.	Lechuga
+4.	Mayonesa
+Proceso:
+1.	Ir al mueble, sacar el pan y la mayonesa
+2.	Cortar el pan por la mitad
+3.	Sacar el Jamon del refrigerador
+4.	Sacar la lechuga del refrigerador
+5.	Lavar la lechuga
+6.	Colocar la mayonesa al pan
+7.	Colocar el Jamón en el pan
+8.	Ponerle lechuga
+9.	Juntar las dos piezas del pan
+Salida:
+Sandwich
+Trabajo Grupal
+
+Cambiar la rueda de un vehículo
+Cambiar el  Pañal de un bebe 
+Cambiar la clave del correo electrónico 
+Para cada algoritmo determinar los elementos de entrada y salida.
+
+Entrada
+Cambio de rueda
+Entradas
+Auto con rueda pinchada en el estacionamiento de la casa
+Rueda de repuesto
+Llave de cruz
+Gata hidráulica
+
+Proceso
+1. Soltar los pernos con la llave sin sacarlos
+2. Poner la gata debajo del auto
+3. Levantar el auto
+4. Retirar la rueda pinchada
+5. Poner la rueda de repuesto
+6. Poner los pernos
+7. Bajar el auto
+8. Apretar la tuerca
+9. Asegurar la rueda de repuesto
+
+Salida
+Auto con rueda de repuesto 
+
+Cambio de pañal
+
+1. Entrada
+2. Pañal
+3. Toallita
+4. Hiploglos
+5. Manta protectora
+6. Bolsa para pañal sucio
+7. Agua
+8. Jabón
+
+
+Proceso
+1. Poner la manta protectora sobre la superficie plana ( cama, cambiador de pañales….)
+2. Abrir los velcros y retirar pañal
+3. a) Si tiene pipi usar la toallita para limpiar
+b) Si se hizo pipi, lavar con agua y jabón
+4. Cambiar pañal y ajustar velcro
+
+Salida
+Bebe con pañales nuevos
+
+Cambiar clave del correo electrónico
+
+Entrada
+Cambio de clave por
+Clave actual
+Usuario
+Computador
+Teléfono móvil
+Proceso 
+1.Ingresar a Gmail
+2.Colocar nombre de usuario y Contraseña
+3.Configuracion, Cambio de contraseña
+4. Ingresar Nueva contraseña.
+5. Confirmar nueva contraseña. 
+Salida
+Correo con nueva contraseña. 
