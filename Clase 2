@@ -1,0 +1,151 @@
+Ejercicio 
+Elaborar un algoritmo para:
+Realizar una compra en una tienda virtual
+Determinar además los elementos de entrada y salida
+Entradas
+Notebook
+Internet
+Tarjeta de crédito
+Tarjeta de Debito
+Procesos
+ 1. Desde Internet Explorer, Google Chrome, Mozilla Firefox, Opera, o el navegador que prefiera, ingrese a la tienda en la que desea comprar.
+2.- Entrar a la sección registro, ingresar datos. Ingresar forma de pago.
+3.-   Inicie la búsqueda de los artículos que desea comprar. Navegando por la tienda virtual.
+4.- A medida que encuentre los productos, verá que en cada uno tiene la posibilidad de dar clic en el botón “Agregar al carro”, “Añadir al carrito” o “Agregar a la bolsa”
+5.-      Al terminar de escoger y una vez tenga la plena seguridad de que ha conseguido lo que buscaba, se procede a pagar.
+Salida
+Compra hecha con éxito. 
+
+Buscar tipos de datos primitivos en Java, y donde se utilizan.
+En Java existen ocho tipos de datos primitivos que se pueden clasificar en:
+•	Números enteros (byte, short, int, long).
+•	Números reales (float, double).
+•	Carácter (char).
+•	Booleano o lógico (boolean).
+
+
+
+
+
+	
+
+
+Byte: 
+Los bytes son frecuentemente usados para almacenar caracteres individuales en un documento de texto. En el código ASCII cada valor binario entre 0 y 127 es asignado con un carácter específico. La mayoría de las computadoras extienden el código ASCII para usar el rango completo de 256 caracteres disponibles en un byte.
+Short:
+Representa un tipo de dato de 16 bits con signo. De esta manera almacena valores numéricos de -32.768 a 32.767.
+Int:
+Las variables de tipo entero o int son aquellas que almacenan un número (ya sea positivo o negativo) no decimal. Debido a que cuando creamos una variable reservamos memoria para ella, cada tipo de variable reservará más o menos memoria para representar el dato que almacenarán.
+Long: 
+En Java existen cuatro tipos destinados a almacenar números enteros. ... long : es el tipo entero de mayor tamaño, 8 bytes (64 bits), con un rango de valores desde -263 a 263-1.
+Float: conocido como tipo de precisión simple, emplea un total de 32 bits. Con este tipo de datos es posible representar números en el rango de 1.4x10-45 a 3.4028235x1038.
+Double: sigue un esquema de almacenamiento similar al anterior, pero usando 64 bits en lugar de 32. Esto le permite representar valores en el rango de 4.9x10-324 a 1.7976931348623157x10308.
+Char:
+El tipo de datos char sirve para representar o contener un solo carácter. Un byte y un char son la misma cosa, excepto porque char se utiliza como carácter, o como parte de una cadena de caracteres, y no se puede utilizar en una expresión aritmética, mientras que un byte solamente puede ser usado como un tipo numérico.
+Boolean: 
+Puede almacenar únicamente dos valores: verdadero o falso. True: representa el valor verdadero. false: representa el valor falso.
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Ejercicio 
+Elaborar un algoritmo para:
+Realizar una compra en una tienda virtual
+Identificar entradas, salidas procesos, variables, constantes y tipo de datos.
+Entradas
+Notebook
+Internet
+Tarjeta de crédito
+Tarjeta de Debito
+Procesos
+ 1. Desde Internet Explorer, Google Chrome, Mozilla Firefox, Opera, o el navegador que prefiera, ingrese a la tienda en la que desea comprar.
+2.- Entrar a la sección registro, ingresar datos. Ingresar forma de pago.
+3.-   Inicie la búsqueda de los artículos que desea comprar. Navegando por la tienda virtual.
+4.- A medida que encuentre los productos, verá que en cada uno tiene la posibilidad de dar clic en el botón “Agregar al carro”, “Añadir al carrito” o “Agregar a la bolsa”
+5.-      Al terminar de escoger y una vez tenga la plena seguridad de que ha conseguido lo que buscaba, se procede a pagar.
+Salida
+Compra hecha con éxito. 
+Variable: Precios finales – Elecciones de compra- nombre del cliente- rut del cliente
+Constantes: - iva – nombre de la pagina- id de despacho
+Tipo de datos: string, long y float
+Ejercicios
+Crear un algoritmo que permita realizar una liquidación de sueldo, identificar entradas, salidas, procesos, variables, constantes y tipos de dato
+
+entrada
+variables
+nombre=string
+rut=string
+cargo=string
+afp=string
+tipodesaludsalud=string
+porcafp=float
+porssalud=float
+sueldo=long
+horasext=int
+valorhext=double
+bonocolac=int
+bonomov=int
+cargfam=int
+valorcf=double
+falor
+
+
+
+
+proceso
+selecciona empleado ingresando rut
+valorentra=sueldo+(horasext*valorhext)+bonocolac+bonomov+(cargfam*valorcf)
+valordesc=(sueldo*porcafp)+(sueldo*porssalud)
+valorliq=valorentra-valodesc
+
+
+
+
+salida
+Liquidación lista para su entrega
+
+Crear un algoritmo que permita realizar  una boleta de honorarios electronica, identificar entradas, salidas, procesos, variables, constantes y tipos de datos
+giro emisor string variable
+direccion emisor string variable
+
+Variables
+
+nombre receptor string 
+domicilio receptor string 
+fecha boleta string 
+rut receptor string 
+motivo string 
+total honorario integer 
+total liquido integer 
+
+Constantes
+descuento boleta float 
+
+Procedimiento 
+-selecciona usuario emisor
+-selecciona receptor
+-ingresa motivo boleta
+-ingreso monto
+-calcular porc impuesto
+-mostrar total liq (total boleta -11.5%)
+confirmar emisión
+
+Salida
+Boleta de honorarios electrónica. 
