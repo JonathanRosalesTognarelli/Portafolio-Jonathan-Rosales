@@ -1,0 +1,47 @@
+Integrante: Jonathan Rosales Tognarelli.
+
+•	Ejercicio grupal 1: Pensar en dos problemáticas las cuales podamos resolver aplicando tecnología (software). luego analizar y definir tres requerimientos funcionales y determinar todas las variables y constantes que pueden existir dentro de estos requerimientos para luego desarrollar el algoritmo para cada uno de estos.
+
+•	Problemática 1: Necesitamos realizar un dibujo para una presentación
+•	Requerimientos funcionales: Necesidad contar con un lápiz, borrador y cambiar paleta de colores.
+•	Variables: 
+	Lápiz: dirección del trazado (variable), grosor (constante)
+	Borrador:  Dirección del borrado (variable), Acción de borrado (constante)
+	Cambio de colores: Paleta de colores (constante), selección de color 	(variable)
+•	Algoritmo:
+
+1.	Lápiz = selección de herramienta lápiz (entrada), punto inicial y final del vector (proceso), línea trazada (salida)
+2.	Borrador = selección de herramienta borrador (entrada), click en lo que se desea borrar (proceso) y acción de borrar (salida).
+3.	Cambio de color = Selección de color "A" (entrada), selección de color "B" distinto a "A" (proceso), nuevo color seleccionado (salida)
+
+
+•	Problemática 2: Aplicación de lista de compras compartida.
+
+•	Problemática 1: Necesidad de recordar los artículos a comprar para abastecer la despensa. 
+•	Requerimientos funcionales: Lista de compras, Compartir lista con otros usuario autorizados, Agregar elemento, marcar elemento y quitar elemento
+•	Variables: 
+	Lista de compra: ítems en la lista (variable)
+	Compartir lista:
+	Agregar elemento: Usuario (constante) y ítem a agregar (variable)
+	Marcar (tachar) ítem: usuario (constante), marcado (tachado) (variable) 	e 	ítem (variable)
+	Quitar ítem: Usuario (constante), ítem (variable), quitar elemento (constante)
+•	Algoritmo:
+
+Lista de compras= Creación  de lista de compra (entrada), se anotan los artículos ( Proceso), Lista de compras terminada 
+Compartir lista= Seleccionar Compartir ( entrada), Agregar a los usuarios que se le enviara la lista ( proceso), Lista compartida (salida)
+Agregar elemento= Seleccionar agregar elemento ( entrada). Agregar articulo nuevo (proceso) elemento agregado (salida)
+Marcar elemento= Marcar Item (entrada, proceso), Item marcado(salida)
+Quitar item: Seleccionar quitar ítems (entrada), seleccionar ítems que deseas quitar (proceso), Item eliminados ( salida) 
+Algoritmo en Seudo Código
+Solicitar al usuario que ingrese dos números.
+
+1.	ALGORITMO Decir;
+2.	VAR
+3.	    ENTERO n1, n2;
+4.	INICIO
+5.	    ESCRIBIR("Dime dos números");
+6.	    LEER( x, z );
+7.	FIN
+
+
+
