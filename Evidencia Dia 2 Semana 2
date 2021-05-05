@@ -1,0 +1,142 @@
+Ejercicios
+Realizar un algoritmo pseudocodigo que permita sumar dos números.
+algoritmo Sumar
+
+variables
+entero num1, num2, suma
+inicio
+escribir "Introduzca primer número (entero): "
+leer num1
+escribir "Introduzca segundo número (entero): "
+leer num2
+suma = num1+num2
+Escribir "El resultado de la suma es: ", suma
+
+fin
+
+Realizar un algoritmo en pseudocodigo que permita calcular el promedio 3 notas 
+variables
+Definir cali1,cali2,cali3,promedio Como Real
+Inicio
+Escribir «Escribe tres calificaciones»
+
+leer cali1,cali2,cali3
+
+promedio = (cali1+cali2+cali3) / 3
+
+Escribir «El promedio de las tres calificaciones es: «,promedio
+Fin
+
+3) Realizar un algoritmo en pseudocodigo que permita calcular el cuadrado de un n°
+variables:  n entero , resultado, cuadrado
+inicio
+escribir "introducir el valor de n entero"
+leer  n entero
+cuadrado= n*n
+Escribir "el Cuadrado del número es" = resultado
+Fin
+
+
+
+Realizara un algoritmo en Pseudocodigo para resolver el siguiente problema:
+Suponga que un individuo desea invertir un capital en un banco y desea saber cuanto dinero ganara después de un mes si el banco le paga a razón de 2% mensual.
+
+Var
+ Definir capital, ganancia Como Real
+Constante
+Interes
+Escribir “escribe el capital invertido”
+Leer capital
+Ganancia=capital*0.02
+Escribir “La ganancia por el capital invertido es $”,ganancia
+Escribir “La ganancia ya con el capital invertido es $”, Capital + Ganancia
+1.Realizar un algoritmo en pseudocódigo que pida ingresar el modelo y marca de un vehículo y muestre por pantalla los datos ingresados.
+
+Variables: Modelo y Marca
+Inicio 
+
+1- Iniciar variables Modelo, Marca
+
+2- Solicitar Introduccion de dos valores Mo y Ma
+
+3- Leer Valores 
+
+4- Asignar a variables A=Mo y B=Ma
+
+5- Si A <=/=> B 
+Entonces. Vuelve Paso Iniciar 1.
+print ("Marca y modelo no coinciden.")
+
+6 Si A <=> B (ambos verdaderos)
+Entonces.si cumple
+print ("datos ingresados")
+
+7 Fin.Si
+
+8. Fin
+
+
+
+2. Realizar un algoritmo en pseudocodigo que calcule el porcentaje solicitado de un número ingresado:
+    
+
+Variables: núm, porcentaje
+inicio
+definir num, porcentaje
+escribir"ingrese numero"
+num = leer numero
+escribir"ingrese porcentaje"
+porcentaje = leer porcentaje
+
+porcentaje=pocentaje/100
+
+un vendedor recibe un sueldo base de mas un 10% de comision de sus ventas, el vendedor desea saber cuanto dinero obtendra por concepto de comisiones por tres ventas que realiza en el mes y el total que recibira en el mes tomando en cuenta su sueldo base y comisiones
+var
+Definir venta1, venta2, venta3, comision, sueldo Como Real
+Escribir " Escribe las 3 ventas del mes"
+leer venta1, venta2,venta 3
+Escribir "Escribe el sueldo base"
+leer sueldo
+comision = (venta1 + venta2 + venta3) * .10
+Escribir "El sueldo base es: $", sueldo
+Escribir "La comision del mes es: $", comision
+Escribir "El sueldo total del mes es: $", sueldo + comision
+Fin Algoritmo
+
+realizar un algoritmo que intercambie el valor de dos variables.
+Por ejemplo:
+Al inicio del problema los valores de las variables son A=2 y B=3
+Luego al final del algoritmo A=3 y B=2
+Variables n1, n2, nA
+
+Introducir 1er numero
+Leer 1er numero
+
+Introducir 2do numero
+Leer 2do numero
+
+nA = n1
+n1 = n2
+n2 = na
+
+Print: "el nuevo valor del 1er numero es: " + n1
+Print: "el nuevo valor del 2do numero es: " + n2
+
+inicio
+
+definir a, b
+
+escribir"ingrese valor 1"
+a = leer valor
+escribir"ingrese valor 2"
+b = leer valor
+
+a=a+b
+b=a-b
+a=a-b
+
+
+escribir "ahora los valores son" +a y +b
+
+fin
+
