@@ -1,0 +1,149 @@
+Semana 2 Clase 4
+Mostrar por pantalla los numeros de 1 al 100 y del 100 a 1
+Algoritmo serie
+Definir x como entero
+X=1
+Mientras x<=100
+Escribir x 
+X=x+1
+Fin mientras
+Fin algoritmo
+
+Sumar solo los numeros pares ingresados por el usuario (la cantidad de numero que se ingresan deben ser determinadas por el usuario)
+
+variable cant_numeros
+variable i
+variable suma
+variable numero
+i=1
+numero=0
+escribir "ingrese cantidad de numeros a ingresar"
+leer cant_numeros
+mientras i<cant_numeros
+escribir "ingrese un numero "
+leer numero
+si numero modulo 2 = 0 entonces
+suma=suma+numero
+i=i+1
+escribir "la suma de los pares es ",suma
+
+Sumar los numeros pares e impares ingresados  por un usuario y contar la cantidad de numeros pares e impares (la cantidad de numeros que se ingresan deben ser determinados por el usuario)
+
+variable cant_numeros
+variable i
+variable suma_pares
+variable suma_impares
+variable cont_pares
+variable cont_impares
+variable numero
+i=1
+numero=0
+suma_pares=0
+suma_impares=0
+cont_pares=0
+cont_impares=0
+escribir "ingrese cantidad de numeros a ingresar"
+leer cant_numeros
+mientras i<cant_numeros
+escribir "ingrese un numero "
+leer numero
+si numero modulo 2 = 0 entonces
+suma_pares=suma_pares+numero
+cant_pares=cant_pares+1
+si no
+suma_impares=suma_impares+numero
+cant_impares=cant_impares+1
+i=i+1
+escribir "la suma de los pares es ",suma_pares
+escribir "la suma de los pares es ",suma_impares
+escribir "la suma de los pares es ",cant_pares
+escribir "la suma de los pares es ",cant_impares
+
+
+Ejercicios 
+
+Realizar algoritmo en pseudocodigo que resuelva los siguientes problemas utilizando las 3 estructuras iterativas qhe hemos visto ( mientras - hacer - para):
+
+1) Se ingresa una cantidad de numero, calcular la suma de todos los numeros pares ingresados y la multiplicación de los impares ingresados, ademas determinar si de los numeros ingresados fueron mas pares o impares (la cantidad de numeros que se ingresan deben ser determinada por el usuario).
+
+mientras - hacer - para
+
+
+
+
+
+
+
+Inicio
+I=0
+J=0
+Sumapp=0
+Num=0
+Numant=0
+Cp=0
+Cim=0
+Sumari=0
+Escribe "ingrese cantidad de números a ingresar:"
+Leer J
+Mientras I<=j
+Escribe i+1
+Leer num
+Si num>numant
+numant=num
+Fin si
+Si num%==0
+Sumapp=sumapp+num
+Cp++
+sino
+Sumari=sumari1*num
+Cim++
+Fin si
+I=i+1
+num=0
+Fin mientras
+Si cp>como
+Escribe "Se ingreso más números pares"+cp
+sino
+Escribe "Se ingreso más números impares"+cim
+Fin si
+Escribe "El número mayor ingresado es"+cp
+Fin
+
+
+
+
+2) Determinar el mayor de N numeros ingresados por el usuario
+
+mientras - hacer - para
+
+mayor = 0
+escribir "ingrese cantidad de numeros a ingresar"
+leer cantNumeros
+escribir "ingrese " + cantNumeros " numeros"
+leer numeros
+
+para: i = 0 hasta cantNumeros
+si ( numeros[i] > mayor )
+mayor = numeros[i]
+fin 
+
+Determinar el menor de N números ingresados por el usuario
+inicio
+numeroActual
+totalNumeros
+menor
+imprimir:"ingrese el total de numeros"
+leer totalNumeros
+para(i=0;i<totalNumeros;i++)
+imprimir :ingrese un numero
+leer numeroActual
+si(i==0)
+{
+menor=numeroActual
+}
+si(numeroActual<menor){
+menor=numeroActual
+}
+print:"el menor de los numeros ingresados es" + menor
+
+fin
