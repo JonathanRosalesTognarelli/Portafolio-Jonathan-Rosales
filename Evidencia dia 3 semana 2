@@ -1,0 +1,156 @@
+Clase  3 Semana 2	
+Crear algoritmos para resolver los siguientes problemas
+Determinar si un numero ingresado es par o impar
+Algoritmo testParImpar
+		Escribir 'Indique un número: '
+	Leer numero
+	Si numero MOD 2 = 0 Entonces
+		Escribir numero,' es par'
+	SiNo
+		Escribir numero,' no es par'
+	FinSi
+FinAlgoritmo
+
+Determinar si un numero ingresado es multiplo o no de 2
+numeroAConsultar
+resultado
+inicio
+si(numeroAConsultar%2=0){
+resultado = multiplo
+imprimir: "el numero " + numeroAConsultar es multiplo de 2
+}
+si no {
+resultado = no es multiplo
+imprimir: "el numero " + numeroAConsultar no es multiplo de 2
+}
+fin
+
+
+
+Determinar si un numero ingresado es multiplo o no de 3
+
+numeroAConsultar
+resultado
+inicio
+si(numeroAConsultar%3=0){
+resultado = multiplo
+imprimir: "el numero " + numeroAConsultar es multiplo de 3
+}
+si no {
+resultado = no es multiplo
+imprimir: "el numero " + numeroAConsultar no es multiplo de 3
+}
+fin
+
+Crear un algoritmo para resolver los siguientes problemas:
+Que permita determinar cual es el mayor  de 2 números ingresados
+Variables
+               Definir a,b Como Entero
+               Escribir «Escribe dos números»
+               leer a, b
+               si a == b Entonces
+                              Escribir «Los números son iguales»
+SiNo
+                              si a > b Entonces
+                                             Escribir «El número mayor es: «,a
+SiNo
+                                            Escribir «EL número mayor es: «,b
+FinSi
+FinSi     
+FinAlgoritmo
+
+Crear Algoritmo
+que permita determinar si la suma de dos números ingresados es positiva, negativa o cero.
+Var
+A,b,n
+Entrada
+Escribir “ingresa valor a”
+Leer a
+Escribir “ingresa valor b”
+Leer b
+A+b=n
+       leer n
+       si n == 0 Entonces
+               Escribir «El numero «,n,» es neutro»
+SiNo
+                        si n > 0 Entonces
+                           Escribir «El número «,n,» es positivo»
+SiNo
+                      Escribir «El numero «,n,» es negativo»
+   FinSi
+       FinSi
+
+Que indique si un numero es divisible por 2 y por 5 al mismo tiempo
+variable numero
+escribir "ingrese un numero "
+leer numero
+
+si numero modulo 2==0 y numero modulo 5==0 entonces
+escribir "numero es divisible por 2 y por 5"
+sino
+escribir "numero NO es divisible por 2 y por 5"
+Que permita determinar cual es el mayor de 3 numeros ingresados
+variable numero1
+variable numero2
+variable numero3
+variable numeromayor
+escribir "ingrese un numero "
+leer numero1
+escribir "ingrese otro numero "
+leer numero2
+escribir "ingrese otro numero "
+leer numero3
+si numero1==numero2
+escribir "son iguales"
+else
+si numero1>numero2 entonces
+si numero1>numero3 entonces
+numeromayor=numero1
+escribir numeromayor, " es el mayor de todos "
+sino
+numeromayor=numero3
+escribir numeromayor, " es el mayor de todos "
+si numero2>numero3 entonces
+numeromayor=numero2
+escribir numeromayor, " es el mayor de todos "
+si no
+numeromayor=numero1
+escribir numeromayor, " es el mayor de todos "
+Crear algoritmo 
+que solicite al ususario ingresar dos numeros y realizara la operacion matematica con estos numeros, el usuario debe seleccionar la operacion a realizar
+vars
+numero1
+numero2
+operacion
+resultado
+
+inicio
+    print: "ingrese un numero a operar"
+    read:numero1
+    print: "ingrese un segundo numero a operar"
+    read:numero2
+    print: "seleccione la operacion a realizar entre:suma,resta,division,multiplicacion"
+    read:operacion
+    Segun operacion
+        suma : resultado = numero1+numero2
+        resta : resultado = numero1-numero2
+        division : resultado = numero1/numero2
+        multiplicacion : resultado = numero1*numero2
+    fin segun
+    print:"el resultado es"+ resultado
+fin
+Algoritmos de búsqueda
+Búsqueda secuencial
+Búsqueda sin centinela
+Búsqueda con centinela
+Búsqueda binaria o dicotómica
+} búsqueda binaria explicada con animación:
+https://www.youtube.com/watch?v=7qv1An90q2Q
+ordenamiento burbuja animado:
+https://www.youtube.com/watch?v=Cq7SMsQBEUw
+
+selection sort animado:
+https://www.youtube.com/watch?v=92BfuxHn2XE
+
+merge sort animado:
+https://www.youtube.com/watch?v=ZRPoEKHXTJg
